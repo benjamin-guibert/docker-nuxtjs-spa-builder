@@ -31,7 +31,7 @@ In order to run this container you will need Docker installed.
 ### Usage
 
 ```shell
-docker run bguibert/nuxtjs-builder:latest
+docker run bguibert/nuxtjs-spa-builder:latest
 ```
 
 #### Volumes
