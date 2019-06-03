@@ -2,6 +2,6 @@
 
 yarn install --production --non-interactive
 
-npm run build
+yarn run build
 
 mv ./dist /var/build/deploy
