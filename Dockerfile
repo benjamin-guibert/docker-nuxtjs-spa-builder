@@ -11,4 +11,4 @@ RUN chmod +x /usr/bin/entrypoint.sh
 
 # Build the project
 
-ENTRYPOINT [ "/bin/sh", "-c", "entrypoint.sh 2>&1 | tee /var/build/build.log" ]
+ENTRYPOINT [ "/bin/sh", "-ce", "entrypoint.sh 2>&1 | tee /var/build/build.log" ]

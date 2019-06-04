@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 yarn install --production --non-interactive
 
