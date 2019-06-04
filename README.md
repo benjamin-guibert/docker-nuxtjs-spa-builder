@@ -20,6 +20,12 @@ These instructions will cover usage information for the Docker container.
 
 The [Nuxt.js](https://nuxtjs.org) project must be deployed as a [Single Page Application](https://nuxtjs.org/guide/commands#single-page-application-deployment-spa-).
 
+The `babel-runtime` dependency is also needed:
+
+```bash
+yarn add babel-runtime
+```
+
 #### Docker
 
 In order to run this container you will need Docker installed.
